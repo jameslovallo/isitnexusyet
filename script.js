@@ -1,6 +1,6 @@
 const D = new Date()
 
-const [month, day] = [D.getMonth() + 1, D.getDay() + 1]
+const [month, day] = [D.getMonth() + 1, D.getDate()]
 
 let message = "Nope"
 
